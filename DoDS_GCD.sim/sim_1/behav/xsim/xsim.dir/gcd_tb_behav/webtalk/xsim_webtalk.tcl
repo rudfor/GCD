@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Sep 30 06:00:43 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Sep 30 06:30:09 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2021.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3247384" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "1586fe4e-37be-4744-b0fc-3be86ebd0322" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "7a9c9cf652634be6aa1245dd7b18ac2f" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "7" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "13" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 7 2700X Eight-Core Processor         " -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "4" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "7" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "1.34_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "67008_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 822161811 -regid "" -xml C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "1.28_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "66960_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2100331046 -regid "" -xml C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Rudolf Fortes/SCHOOL/DoDS_GCD/DoDS_GCD.sim/sim_1/behav/xsim/xsim.dir/gcd_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

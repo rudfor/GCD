@@ -41,6 +41,7 @@ architecture behaviour of gcd_tb is
 	signal clk, reset : std_logic;
 	signal req, ack   : std_logic;
 	signal state      : std_logic;
+	signal next_state : std_logic;
     signal reg_a, next_reg_a, next_reg_b, reg_b : unsigned(15 downto 0);
 	signal AB, C      : unsigned(15 downto 0);
 
